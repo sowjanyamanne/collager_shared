@@ -1,0 +1,13 @@
+.light-content-area {
+  background-color: #f2f4f8;
+}
+
+.main-row {
+  flex-wrap: nowrap;
+}
+
+.trillo-chart-view {
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #e1e6ef;
+}

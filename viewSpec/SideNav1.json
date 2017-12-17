@@ -1,0 +1,57 @@
+{
+  "name" : "SideNav1",
+  "type" : "navTree",
+  "width" : "240px",
+  "hierSpecs" : [
+    {
+      "name" : "home_",
+      "displayName" : "Home",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "iconClass" : "fa fa-home",
+      "type" : "treeNode"
+    },
+    {
+      "name" : "jobs",
+      "displayName" : "Jobs",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "iconClass" : "fa fa-briefcase",
+      "type" : "treeNode"
+    },
+    {
+      "name" : "resume",
+      "displayName" : "Resume",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "iconClass" : "fa fa-file-text",
+      "type" : "treeNode"
+    },
+    {
+      "name" : "tasks",
+      "displayName" : "Tasks",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "iconClass" : "fa fa-tasks",
+      "type" : "treeNode"
+    },
+    {
+      "name" : "calendar",
+      "displayName" : "Calendar",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "iconClass" : "fa fa-calendar",
+      "type" : "treeNode"
+    }
+  ],
+  "css" : {
+    "padding" : "10px",
+    "border-right" : "1px solid #ccc",
+    "background-color" : "#fff"
+  }
+}

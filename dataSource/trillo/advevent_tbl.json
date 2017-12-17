@@ -1,0 +1,212 @@
+{
+  "name" : "advevent_tbl",
+  "attributes" : [
+    {
+      "name" : "id",
+      "type" : "BigInteger",
+      "indexed" : true,
+      "length" : 19,
+      "nameInDS" : "id",
+      "primaryKey" : true,
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.id"
+    },
+    {
+      "name" : "a2ids",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "a2ids",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.a2ids"
+    },
+    {
+      "name" : "adgroup2Ids",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "adgroup2Ids",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.adgroup2Ids"
+    },
+    {
+      "name" : "advertiserIds",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "advertiserIds",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.advertiserIds"
+    },
+    {
+      "name" : "afc",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "afc",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.afc"
+    },
+    {
+      "name" : "afcExpandable",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "afcExpandable",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.afcExpandable"
+    },
+    {
+      "name" : "campaignIds",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "campaignIds",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.campaignIds"
+    },
+    {
+      "name" : "cids",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "cids",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.cids"
+    },
+    {
+      "name" : "creativeIds",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "creativeIds",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.creativeIds"
+    },
+    {
+      "name" : "elementTop",
+      "type" : "Double",
+      "length" : 12,
+      "nameInDS" : "elementTop",
+      "typeInDS" : "FLOAT",
+      "uid" : "AttributeM.elementTop"
+    },
+    {
+      "name" : "empty",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "empty",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.empty"
+    },
+    {
+      "name" : "ev",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "ev",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.ev"
+    },
+    {
+      "name" : "expandable",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "expandable",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.expandable"
+    },
+    {
+      "name" : "height",
+      "type" : "Integer",
+      "length" : 10,
+      "nameInDS" : "height",
+      "typeInDS" : "INT",
+      "uid" : "AttributeM.height"
+    },
+    {
+      "name" : "html",
+      "type" : "String",
+      "length" : 65535,
+      "nameInDS" : "html",
+      "typeInDS" : "TEXT",
+      "uid" : "AttributeM.html"
+    },
+    {
+      "name" : "labelIds",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "labelIds",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.labelIds"
+    },
+    {
+      "name" : "psa",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "psa",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.psa"
+    },
+    {
+      "name" : "qqid",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "qqid",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.qqid"
+    },
+    {
+      "name" : "scrollTop",
+      "type" : "Integer",
+      "length" : 10,
+      "nameInDS" : "scrollTop",
+      "typeInDS" : "INT",
+      "uid" : "AttributeM.scrollTop"
+    },
+    {
+      "name" : "slotElementId",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "slotElementId",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.slotElementId"
+    },
+    {
+      "name" : "snippet",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "snippet",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.snippet"
+    },
+    {
+      "name" : "threePas",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "threePas",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.threePas"
+    },
+    {
+      "name" : "timestamp",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "timestamp",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.timestamp"
+    },
+    {
+      "name" : "type",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "type",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.type"
+    },
+    {
+      "name" : "width",
+      "type" : "Integer",
+      "length" : 10,
+      "nameInDS" : "width",
+      "typeInDS" : "INT",
+      "uid" : "AttributeM.width"
+    }
+  ],
+  "displayName" : "trillo.advevent_tbl",
+  "nameInDS" : "advevent_tbl",
+  "primaryKeyGenerator" : "uuid",
+  "tableCreateable" : false,
+  "uid" : "ClassM.advevent_tbl"
+}

@@ -1,0 +1,133 @@
+{
+  "name" : "msg_tbl",
+  "attributes" : [
+    {
+      "name" : "id",
+      "type" : "BigInteger",
+      "indexed" : true,
+      "length" : 19,
+      "nameInDS" : "id",
+      "primaryKey" : true,
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.id"
+    },
+    {
+      "name" : "orgId",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "orgId",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.orgId"
+    },
+    {
+      "name" : "appKey",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "appKey",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.appKey"
+    },
+    {
+      "name" : "createdAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "createdAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.createdAt"
+    },
+    {
+      "name" : "name",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "name",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.name"
+    },
+    {
+      "name" : "updatedAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "updatedAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.updatedAt"
+    },
+    {
+      "name" : "content",
+      "type" : "String",
+      "length" : 65535,
+      "nameInDS" : "content",
+      "typeInDS" : "TEXT",
+      "uid" : "AttributeM.content"
+    },
+    {
+      "name" : "deleted",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "deleted",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.deleted"
+    },
+    {
+      "name" : "orgName",
+      "type" : "String",
+      "indexed" : true,
+      "length" : 255,
+      "nameInDS" : "orgName",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.orgName"
+    },
+    {
+      "name" : "parentUid",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "parentUid",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.parentUid"
+    },
+    {
+      "name" : "replied",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "replied",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.replied"
+    },
+    {
+      "name" : "senderEmail",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "senderEmail",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.senderEmail"
+    },
+    {
+      "name" : "subject",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "subject",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.subject"
+    },
+    {
+      "name" : "type",
+      "type" : "Short",
+      "length" : 5,
+      "nameInDS" : "type",
+      "typeInDS" : "SMALLINT",
+      "uid" : "AttributeM.type"
+    },
+    {
+      "name" : "deletedAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "deletedAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.deletedAt"
+    }
+  ],
+  "displayName" : "trillo.msg_tbl",
+  "nameInDS" : "msg_tbl",
+  "primaryKeyGenerator" : "uuid",
+  "tableCreateable" : false,
+  "uid" : "ClassM.msg_tbl"
+}

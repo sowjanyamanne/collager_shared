@@ -1,0 +1,39 @@
+{
+  "name" : "AuditLog",
+  "fields" : [
+    {
+      "name" : "createdAt",
+      "type" : "Long"
+    },
+    {
+      "name" : "id",
+      "type" : "Long"
+    },
+    {
+      "name" : "msg",
+      "type" : "String"
+    },
+    {
+      "name" : "parentUid",
+      "type" : "String"
+    },
+    {
+      "name" : "severity",
+      "type" : "Short"
+    },
+    {
+      "name" : "type",
+      "type" : "Short"
+    },
+    {
+      "name" : "uid",
+      "type" : "String"
+    },
+    {
+      "name" : "userId",
+      "type" : "String"
+    }
+  ],
+  "appName" : "shared",
+  "packageName" : "com.collager.aws.entity"
+}

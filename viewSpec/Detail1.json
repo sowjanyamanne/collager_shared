@@ -1,0 +1,21 @@
+{
+"name" : "Detail1",
+"type" : "table",
+"width" : "300px",
+"fieldSpecs" : [
+  {
+    "name" : "n",
+    "type" : "readonly"
+  },
+  {
+    "name" : "v",
+    "type" : "readonly"
+  }
+],
+"css" : {
+  "border" : "1px solid #bbb",
+  "margin-left" : "10px",
+  "margin-right" : "10px",
+  "background-color" : "#fff"
+}
+}

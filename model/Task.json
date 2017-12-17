@@ -1,0 +1,55 @@
+{
+  "name" : "Task",
+  "fields" : [
+    {
+      "name" : "appKey",
+      "type" : "String"
+    },
+    {
+      "name" : "createdAt",
+      "type" : "Long"
+    },
+    {
+      "name" : "displayName",
+      "type" : "String"
+    },
+    {
+      "name" : "id",
+      "type" : "Long"
+    },
+    {
+      "name" : "lastExecutionTimestamp",
+      "type" : "Long"
+    },
+    {
+      "name" : "name",
+      "type" : "String"
+    },
+    {
+      "name" : "performerBean",
+      "type" : "String"
+    },
+    {
+      "name" : "periodicity",
+      "type" : "Integer"
+    },
+    {
+      "name" : "sourceUid",
+      "type" : "String"
+    },
+    {
+      "name" : "uid",
+      "type" : "String"
+    },
+    {
+      "name" : "updatedAt",
+      "type" : "Long"
+    },
+    {
+      "name" : "userId",
+      "type" : "String"
+    }
+  ],
+  "appName" : "shared",
+  "packageName" : "com.collager.trillo.entity"
+}

@@ -1,0 +1,109 @@
+{
+  "name" : "org_tbl",
+  "attributes" : [
+    {
+      "name" : "id",
+      "type" : "BigInteger",
+      "indexed" : true,
+      "length" : 19,
+      "nameInDS" : "id",
+      "primaryKey" : true,
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.id"
+    },
+    {
+      "name" : "orgId",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "orgId",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.orgId"
+    },
+    {
+      "name" : "appKey",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "appKey",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.appKey"
+    },
+    {
+      "name" : "createdAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "createdAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.createdAt"
+    },
+    {
+      "name" : "deleted",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "deleted",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.deleted"
+    },
+    {
+      "name" : "deletedAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "deletedAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.deletedAt"
+    },
+    {
+      "name" : "name",
+      "type" : "String",
+      "indexed" : true,
+      "length" : 255,
+      "nameInDS" : "name",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.name"
+    },
+    {
+      "name" : "updatedAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "updatedAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.updatedAt"
+    },
+    {
+      "name" : "accessToken",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "accessToken",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.accessToken"
+    },
+    {
+      "name" : "timeAccessTokenAcquired",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "timeAccessTokenAcquired",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.timeAccessTokenAcquired"
+    },
+    {
+      "name" : "authenticationSvcCode",
+      "type" : "Integer",
+      "length" : 10,
+      "nameInDS" : "authenticationSvcCode",
+      "typeInDS" : "INT",
+      "uid" : "AttributeM.authenticationSvcCode"
+    },
+    {
+      "name" : "displayName",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "displayName",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.displayName"
+    }
+  ],
+  "displayName" : "trillo.org_tbl",
+  "nameInDS" : "org_tbl",
+  "primaryKeyGenerator" : "uuid",
+  "tableCreateable" : false,
+  "uid" : "ClassM.org_tbl"
+}

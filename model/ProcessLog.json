@@ -1,0 +1,35 @@
+{
+  "name" : "ProcessLog",
+  "fields" : [
+    {
+      "name" : "activityId",
+      "type" : "Integer"
+    },
+    {
+      "name" : "createdAt",
+      "type" : "Long"
+    },
+    {
+      "name" : "id",
+      "type" : "Long"
+    },
+    {
+      "name" : "msg",
+      "type" : "String"
+    },
+    {
+      "name" : "parent",
+      "type" : "Long"
+    },
+    {
+      "name" : "severity",
+      "type" : "Short"
+    },
+    {
+      "name" : "uid",
+      "type" : "String"
+    }
+  ],
+  "appName" : "shared",
+  "packageName" : "com.collager.trillo.entity"
+}

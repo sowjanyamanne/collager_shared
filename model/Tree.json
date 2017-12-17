@@ -1,0 +1,49 @@
+{
+  "name" : "Tree",
+  "fields" : [
+    {
+      "name" : "appKey",
+      "type" : "String",
+      "accessControl" : "All"
+    },
+    {
+      "name" : "assocUid",
+      "type" : "String",
+      "accessControl" : "All"
+    },
+    {
+      "name" : "createdAt",
+      "type" : "Long",
+      "accessControl" : "All"
+    },
+    {
+      "name" : "id",
+      "type" : "Long",
+      "accessControl" : "All"
+    },
+    {
+      "name" : "name",
+      "type" : "String",
+      "accessControl" : "All"
+    },
+    {
+      "name" : "uid",
+      "type" : "String",
+      "accessControl" : "All"
+    },
+    {
+      "name" : "updatedAt",
+      "type" : "Long",
+      "accessControl" : "All"
+    },
+    {
+      "name" : "value",
+      "type" : "String",
+      "accessControl" : "All"
+    }
+  ],
+  "associations" : [ ],
+  "metrics" : [ ],
+  "accessControl" : "All",
+  "saveNeeded" : true
+}

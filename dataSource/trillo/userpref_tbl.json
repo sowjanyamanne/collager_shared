@@ -1,0 +1,100 @@
+{
+  "name" : "userpref_tbl",
+  "attributes" : [
+    {
+      "name" : "id",
+      "type" : "BigInteger",
+      "indexed" : true,
+      "length" : 19,
+      "nameInDS" : "id",
+      "primaryKey" : true,
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.id"
+    },
+    {
+      "name" : "createdAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "createdAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.createdAt"
+    },
+    {
+      "name" : "updatedAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "updatedAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.updatedAt"
+    },
+    {
+      "name" : "history",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "history",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.history"
+    },
+    {
+      "name" : "last_page",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "last_page",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.last_page"
+    },
+    {
+      "name" : "orgId",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "orgId",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.orgId"
+    },
+    {
+      "name" : "appKey",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "appKey",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.appKey"
+    },
+    {
+      "name" : "name",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "name",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.name"
+    },
+    {
+      "name" : "lastPage",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "lastPage",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.lastPage"
+    },
+    {
+      "name" : "deleted",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "deleted",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.deleted"
+    },
+    {
+      "name" : "deletedAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "deletedAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.deletedAt"
+    }
+  ],
+  "displayName" : "trillo.userpref_tbl",
+  "nameInDS" : "userpref_tbl",
+  "primaryKeyGenerator" : "uuid",
+  "tableCreateable" : false,
+  "uid" : "ClassM.userpref_tbl"
+}

@@ -1,0 +1,11 @@
+{
+   "processStatusEnum": [
+    {"v": 0, "n":  "Not Started"},
+    {"v": 1, "n":  "In Progress"},
+    {"v": 100, "n":  "Failed"},
+    {"v": 101, "n":  "Completed"},
+    {"v": 102, "n":  "Cancelled"}
+   ]
+}
+
+

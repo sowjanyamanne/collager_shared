@@ -1,0 +1,10 @@
+{
+  "name" : "trillo",
+  "properties" : {
+    "url" : "jdbc:mysql://localhost/trillo?characterEncoding=UTF-8",
+    "username" : "trillo",
+    "password" : "tri11pa$$"
+  },
+  "type" : "mysql",
+  "uid" : "DataSourceM.trillo"
+}

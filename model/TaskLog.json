@@ -1,0 +1,46 @@
+{
+  "name" : "TaskLog",
+  "fields" : [
+    {
+      "name" : "createdAt",
+      "type" : "Long",
+      "accessControl" : "All",
+      "uid" : "FieldM.createdAt"
+    },
+    {
+      "name" : "id",
+      "type" : "Long",
+      "accessControl" : "All",
+      "uid" : "FieldM.id"
+    },
+    {
+      "name" : "msg",
+      "type" : "String",
+      "accessControl" : "All",
+      "uid" : "FieldM.msg"
+    },
+    {
+      "name" : "parent",
+      "type" : "Long",
+      "accessControl" : "All",
+      "uid" : "FieldM.parent"
+    },
+    {
+      "name" : "severity",
+      "type" : "Short",
+      "accessControl" : "All",
+      "uid" : "FieldM.severity"
+    },
+    {
+      "name" : "uid",
+      "type" : "String",
+      "accessControl" : "All",
+      "uid" : "FieldM.uid"
+    }
+  ],
+  "associations" : [ ],
+  "metrics" : [ ],
+  "accessControl" : "All",
+  "saveNeeded" : true,
+  "uid" : "ClassM.TaskLog"
+}

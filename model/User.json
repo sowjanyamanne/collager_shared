@@ -1,0 +1,88 @@
+{
+  "name" : "User",
+  "fields" : [
+    {
+      "name" : "appKey",
+      "type" : "String",
+      "uid" : "FieldM.appKey"
+    },
+    {
+      "name" : "createdAt",
+      "type" : "Long",
+      "uid" : "FieldM.createdAt"
+    },
+    {
+      "name" : "email",
+      "type" : "String",
+      "uid" : "FieldM.email"
+    },
+    {
+      "name" : "externSource",
+      "type" : "String",
+      "uid" : "FieldM.externSource"
+    },
+    {
+      "name" : "firstName",
+      "type" : "String",
+      "uid" : "FieldM.firstName"
+    },
+    {
+      "name" : "fullName",
+      "type" : "String",
+      "uid" : "FieldM.fullName"
+    },
+    {
+      "name" : "id",
+      "type" : "Long",
+      "uid" : "FieldM.id"
+    },
+    {
+      "name" : "lastName",
+      "type" : "String",
+      "uid" : "FieldM.lastName"
+    },
+    {
+      "name" : "name",
+      "type" : "String",
+      "uid" : "FieldM.name"
+    },
+    {
+      "name" : "oldPassword",
+      "type" : "String",
+      "uid" : "FieldM.oldPassword"
+    },
+    {
+      "name" : "password",
+      "type" : "String",
+      "uid" : "FieldM.password"
+    },
+    {
+      "name" : "role",
+      "type" : "String",
+      "uid" : "FieldM.role"
+    },
+    {
+      "name" : "rptPassword",
+      "type" : "String",
+      "uid" : "FieldM.rptPassword"
+    },
+    {
+      "name" : "uid",
+      "type" : "String",
+      "uid" : "FieldM.uid"
+    },
+    {
+      "name" : "updatedAt",
+      "type" : "Long",
+      "uid" : "FieldM.updatedAt"
+    },
+    {
+      "name" : "userId",
+      "type" : "String",
+      "uid" : "FieldM.userId"
+    }
+  ],
+  "appName" : "shared",
+  "packageName" : "com.collager.trillo.entity",
+  "uid" : "ClassM.User"
+}

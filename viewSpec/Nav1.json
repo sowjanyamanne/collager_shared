@@ -1,0 +1,38 @@
+{
+  "name" : "Nav1",
+  "type" : "nav",
+  "hierSpecs" : [
+    {
+      "name" : "home_",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "iconClass" : "fa fa-home",
+      "type" : "menuItem"
+    },
+    {
+      "name" : "applicants",
+      "displayName" : "Applicantss",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "type" : "menuItem"
+    },
+    {
+      "name" : "jobBoard",
+      "displayName" : "Job Board",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "type" : "menuItem"
+    },
+    {
+      "name" : "interviews",
+      "displayName" : "Interviews",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "type" : "menuItem"
+    }
+  ]
+}

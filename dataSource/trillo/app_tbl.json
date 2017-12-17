@@ -1,0 +1,262 @@
+{
+  "name" : "app_tbl",
+  "attributes" : [
+    {
+      "name" : "id",
+      "type" : "BigInteger",
+      "indexed" : true,
+      "length" : 19,
+      "nameInDS" : "id",
+      "primaryKey" : true,
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.id"
+    },
+    {
+      "name" : "orgId",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "orgId",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.orgId"
+    },
+    {
+      "name" : "appKey",
+      "type" : "String",
+      "indexed" : true,
+      "length" : 255,
+      "nameInDS" : "appKey",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.appKey"
+    },
+    {
+      "name" : "createdAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "createdAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.createdAt"
+    },
+    {
+      "name" : "deleted",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "deleted",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.deleted"
+    },
+    {
+      "name" : "deletedAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "deletedAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.deletedAt"
+    },
+    {
+      "name" : "name",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "name",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.name"
+    },
+    {
+      "name" : "updatedAt",
+      "type" : "BigInteger",
+      "length" : 19,
+      "nameInDS" : "updatedAt",
+      "typeInDS" : "BIGINT",
+      "uid" : "AttributeM.updatedAt"
+    },
+    {
+      "name" : "appTemplate",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "appTemplate",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.appTemplate"
+    },
+    {
+      "name" : "canAutoLogin",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "canAutoLogin",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.canAutoLogin"
+    },
+    {
+      "name" : "canUserRegister",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "canUserRegister",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.canUserRegister"
+    },
+    {
+      "name" : "defaultPage",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "defaultPage",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.defaultPage"
+    },
+    {
+      "name" : "description",
+      "type" : "String",
+      "length" : 65535,
+      "nameInDS" : "description",
+      "typeInDS" : "TEXT",
+      "uid" : "AttributeM.description"
+    },
+    {
+      "name" : "displayName",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "displayName",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.displayName"
+    },
+    {
+      "name" : "hidden",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "hidden",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.hidden"
+    },
+    {
+      "name" : "htmlHeadTitle",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "htmlHeadTitle",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.htmlHeadTitle"
+    },
+    {
+      "name" : "keywords",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "keywords",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.keywords"
+    },
+    {
+      "name" : "linkedApp",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "linkedApp",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.linkedApp"
+    },
+    {
+      "name" : "logoImage",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "logoImage",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.logoImage"
+    },
+    {
+      "name" : "metaDataPubliclyViewable",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "metaDataPubliclyViewable",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.metaDataPubliclyViewable"
+    },
+    {
+      "name" : "orgName",
+      "type" : "String",
+      "indexed" : true,
+      "length" : 255,
+      "nameInDS" : "orgName",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.orgName"
+    },
+    {
+      "name" : "permittedOrgs",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "permittedOrgs",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.permittedOrgs"
+    },
+    {
+      "name" : "requiredRoles",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "requiredRoles",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.requiredRoles"
+    },
+    {
+      "name" : "requiresLogin",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "requiresLogin",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.requiresLogin"
+    },
+    {
+      "name" : "trilloVersion",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "trilloVersion",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.trilloVersion"
+    },
+    {
+      "name" : "type",
+      "type" : "String",
+      "length" : 255,
+      "nameInDS" : "type",
+      "typeInDS" : "VARCHAR",
+      "uid" : "AttributeM.type"
+    },
+    {
+      "name" : "useTestData",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "useTestData",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.useTestData"
+    },
+    {
+      "name" : "usingEnumsCatalog",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "usingEnumsCatalog",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.usingEnumsCatalog"
+    },
+    {
+      "name" : "usingStringFiles",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "usingStringFiles",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.usingStringFiles"
+    },
+    {
+      "name" : "usingViewSpecs",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "usingViewSpecs",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.usingViewSpecs"
+    },
+    {
+      "name" : "multiBranch",
+      "type" : "Boolean",
+      "length" : 1,
+      "nameInDS" : "multiBranch",
+      "typeInDS" : "BIT",
+      "uid" : "AttributeM.multiBranch"
+    }
+  ],
+  "displayName" : "trillo.app_tbl",
+  "nameInDS" : "app_tbl",
+  "primaryKeyGenerator" : "uuid",
+  "tableCreateable" : false,
+  "uid" : "ClassM.app_tbl"
+}

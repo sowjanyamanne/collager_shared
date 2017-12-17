@@ -1,0 +1,48 @@
+{
+  "name" : "UserPref",
+  "fields" : [
+    {
+      "name" : "appKey",
+      "type" : "String",
+      "uid" : "FieldM.appKey"
+    },
+    {
+      "name" : "createdAt",
+      "type" : "Long",
+      "uid" : "FieldM.createdAt"
+    },
+    {
+      "name" : "history",
+      "type" : "String",
+      "uid" : "FieldM.history"
+    },
+    {
+      "name" : "id",
+      "type" : "Long",
+      "uid" : "FieldM.id"
+    },
+    {
+      "name" : "lastPage",
+      "type" : "String",
+      "uid" : "FieldM.lastPage"
+    },
+    {
+      "name" : "name",
+      "type" : "String",
+      "uid" : "FieldM.name"
+    },
+    {
+      "name" : "uid",
+      "type" : "String",
+      "uid" : "FieldM.uid"
+    },
+    {
+      "name" : "updatedAt",
+      "type" : "Long",
+      "uid" : "FieldM.updatedAt"
+    }
+  ],
+  "appName" : "shared",
+  "packageName" : "com.collager.trillo.entity",
+  "uid" : "ClassM.UserPref"
+}
